@@ -12,7 +12,8 @@
     [false, true, false, false, true, false, true, true)
  */
 
-function parImpar(array) {
+const array = [1,3,6,8,16,17,30,39]
+function oddEven(array) {
     const arr=[]
     for (let i=0;i<array.length;i++) {
       if (array[i]%2===0) {
@@ -21,8 +22,8 @@ function parImpar(array) {
         arr.push(false)
       }
     }
-    return arr;
+    return arr
   }
-  const array = [1,3,6,8,16,17,30,39];
-  console.log(parImpar(array));
+
+  console.log(oddEven(array))
 
